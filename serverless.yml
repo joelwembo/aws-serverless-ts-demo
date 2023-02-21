@@ -67,7 +67,7 @@ functions:
       - http:
           method: put
           path: update-post/{postId}
-          cors: true
+          cors: false
   deletePost:
     handler: src/functions/deletePost.handler
     events:
